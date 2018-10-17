@@ -27,12 +27,12 @@ public class Item {
     
     public float getTotalPrice(){
         float total = 0;
-        total = (amount * price) - (price * amount);
+        total = (amount * price);
         return total;
     }
     
     @Override
     public String toString(){
-        return 
+        return name +" \t "+price+" \t "+amount;
     }
 }
