@@ -6,7 +6,6 @@
 package utspbo;
 
 /**
- *
  * @author J I N G G A
  * next by Taufik
  */
@@ -17,6 +16,4 @@ public class DiscountItem extends Item{
         super(name, price, amount);
         this.discount = discount;
     }
-    
-    
 }
