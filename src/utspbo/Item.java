@@ -26,13 +26,11 @@ public class Item {
     }
     
     public float getTotalPrice(){
-        float total = 0;
-        total = (amount * price);
-        return total;
+        return (int) amount * price;
     }
     
     @Override
     public String toString(){
-        return name +" \t "+price+" \t "+amount;
+        return name +" \t\t "+price+" \t\t "+amount+" \t\t "+(price * amount);
     }
 }
