@@ -12,8 +12,17 @@ package utspbo;
 public class DiscountItem extends Item{
     private float discount;
 
-    public DiscountItem(float discount, String name, float price, int amount) {
+    public DiscountItem(String name, float price, int amount, float diskon) {
         super(name, price, amount);
         this.discount = discount;
+    }
+    
+    public float getTotalPrice(){
+        return (price * amount) - (amount * price * discount);
+    }
+    
+    @Override
+    public String toString(){
+        return name +" \t\t "+price+" \t\t "+amount+" \t\t "+getTotalPrice()+" \t \t "+(discount*100);
     }
 }
