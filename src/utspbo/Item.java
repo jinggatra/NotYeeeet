@@ -9,6 +9,7 @@ package utspbo;
 /**
  *
  * @author dhanifudin
+ * next by Taufik
  */
 public class Item {
     protected String name;
@@ -32,6 +33,6 @@ public class Item {
     
     @Override
     public String toString(){
-        return
+        return 
     }
 }

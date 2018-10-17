@@ -8,6 +8,7 @@ package utspbo;
 /**
  *
  * @author dhanifudin
+ * next by Taufik
  */
 public class Transaction {
     

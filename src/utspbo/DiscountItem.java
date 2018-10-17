@@ -8,6 +8,7 @@ package utspbo;
 /**
  *
  * @author J I N G G A
+ * next by Taufik
  */
 public class DiscountItem extends Item{
     private float discount;
